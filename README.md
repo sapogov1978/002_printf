@@ -14,23 +14,29 @@ You will mainly learn about using a variable number of arguments._
 
 ### Requirements
 
-The project is written in C language and thus needs the **`gcc` compiler** and some standard **C libraries** to run.
+The library is written in C language and thus needs the **`gcc` compiler** and some standard **C libraries** to run.
 
 ### Instructions
 
-**1. Compiling**
+**1. Compiling the library**
 
 To compile the library, run:
 
 ```shell
-$ cd [path/to/project] && make
+$ cd path/to/ft_printf && make
 ```
 
-**2. Running**
+**2. Using it in your code**
 
-To use the functions:
+To use the library functions in your code, simply include its header:
+
+```C
+#include "printf.h"
+```
+
+and, when compiling your code, add the required flags:
 
 ```shell
-./gnl test_cases/[any_case]
+-lftprintf -L path/to/libftprintf.a -I path/to/printf.h
 ```
 
