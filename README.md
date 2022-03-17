@@ -1,10 +1,9 @@
 # 002_printf
-## Recode of system printf. Works with cspdiuxX% convesions, field size and precision. Thanks to HecateCerridwen, cvignar and MaudClam for understanding, ideas and debugging of project.
+## Recode of system printf. Works with cspdiuxX% convesions, field size and precision. 
+_Thanks to HecateCerridwen, cvignar and MaudClam for understanding, ideas and debugging of project._
 
-# 002_get_next_line
-## Function which returns a line read from a file descriptor. Calling function in a loop will then allow to read the text available on a file descriptor one line at a time until the EOF.
-
->_This project will not only allow you to add a very convenient function to your collection, but it will also make you learn a highly interesting new concept in C programming: static variables._
+>_The goal of this project is pretty straightforward. You will recode printf().
+You will mainly learn about using a variable number of arguments._
 
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/sapogov1978/002_printf?style=for-the-badge)
 ![Lines of code](https://img.shields.io/tokei/lines/github/sapogov1978/002_printf?style=for-the-badge)
